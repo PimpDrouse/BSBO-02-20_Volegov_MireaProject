@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_hobby">
+
+    <fragment
+        android:id="@+id/nav_hobby"
+        android:name="ru.mirea.volegovaa.mireaproject.ui.hobbys.HobbyFragment"
+        android:label="@string/menu_hobby"
+        tools:layout="@layout/fragment_hobbys" />
+
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.volegovaa.mireaproject.ui.browser.BrowserFragment"
+        android:label="@string/menu_browser"
+        tools:layout="@layout/fragment_browser" />
+
+</navigation>
