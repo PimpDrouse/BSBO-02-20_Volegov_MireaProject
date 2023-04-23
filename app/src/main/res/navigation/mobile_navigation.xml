@@ -16,5 +16,10 @@
         android:name="ru.mirea.volegovaa.mireaproject.ui.browser.BrowserFragment"
         android:label="@string/menu_browser"
         tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/musicPlayer"
+        android:name="ru.mirea.volegovaa.mireaproject.ui.music.MusicPlayer"
+        android:label="fragment_music_player"
+        tools:layout="@layout/fragment_music_player" />
 
 </navigation>
