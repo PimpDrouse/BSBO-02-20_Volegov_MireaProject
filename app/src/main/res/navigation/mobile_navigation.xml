@@ -21,5 +21,20 @@
         android:name="ru.mirea.volegovaa.mireaproject.ui.music.MusicPlayer"
         android:label="fragment_music_player"
         tools:layout="@layout/fragment_music_player" />
+    <fragment
+        android:id="@+id/nav_mySensorFragment"
+        android:name="ru.mirea.volegovaa.mireaproject.MySensorFragment"
+        android:label="fragment_my_sensor"
+        tools:layout="@layout/fragment_my_sensor" />
+    <fragment
+        android:id="@+id/nav_myCameraFragment"
+        android:name="ru.mirea.volegovaa.mireaproject.MyCameraFragment"
+        android:label="fragment_my_camera"
+        tools:layout="@layout/fragment_my_camera" />
+    <fragment
+        android:id="@+id/nav_myAudioFragment"
+        android:name="ru.mirea.volegovaa.mireaproject.MyAudioFragment"
+        android:label="fragment_my_audio"
+        tools:layout="@layout/fragment_my_audio" />
 
 </navigation>

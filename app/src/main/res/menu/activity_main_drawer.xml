@@ -16,5 +16,17 @@
             android:id="@+id/musicPlayer"
             android:icon="@android:drawable/ic_media_play"
             android:title="Player"/>
+        <item
+            android:id="@+id/nav_mySensorFragment"
+            android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+            android:title="Sensor"/>
+        <item
+            android:id="@+id/nav_myCameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera"/>
+        <item
+            android:id="@+id/nav_myAudioFragment"
+            android:icon="@android:drawable/ic_lock_silent_mode_off"
+            android:title="Audio"/>
     </group>
 </menu>
