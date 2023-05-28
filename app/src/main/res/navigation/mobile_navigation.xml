@@ -36,5 +36,15 @@
         android:name="ru.mirea.volegovaa.mireaproject.MyAudioFragment"
         android:label="fragment_my_audio"
         tools:layout="@layout/fragment_my_audio" />
+    <fragment
+        android:id="@+id/nav_profileFragment"
+        android:name="ru.mirea.volegovaa.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_myFilesFragment"
+        android:name="ru.mirea.volegovaa.mireaproject.MyFilesFragment"
+        android:label="fragment_my_files"
+        tools:layout="@layout/fragment_my_files" />
 
 </navigation>
