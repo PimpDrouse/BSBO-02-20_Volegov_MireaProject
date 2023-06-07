@@ -36,5 +36,9 @@
             android:id="@+id/nav_myFilesFragment"
             android:icon="@android:drawable/ic_menu_agenda"
             android:title="files"/>
+        <item
+            android:id="@+id/nav_placesFragment"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="заведения"/>
     </group>
 </menu>
